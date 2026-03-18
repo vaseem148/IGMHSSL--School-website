@@ -3,11 +3,11 @@ import { Facebook, Instagram, Youtube, Heart } from 'lucide-react'; // Using luc
 
 const Footer = () => {
   const quickLinks = [
-    { name: 'About Us', href: '#' },
-    { name: 'Academics', href: '#' },
-    { name: 'Admissions', href: '#' },
-    { name: 'Facilities', href: '#' },
-    { name: 'Contact', href: '#' },
+    { name: 'About Us', href: '#about' },
+    { name: 'Academics', href: '#academics' },
+    { name: 'Admissions', href: '#admissions' },
+    { name: 'Facilities', href: '#facilities' },
+    { name: 'Contact', href: '#contact' },
   ];
 
   return (

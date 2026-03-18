@@ -3,7 +3,7 @@ import React from "react";
 export default function HeroPage() {
   return (
       
-      <main className="relative min-h-screen text-white overflow-hidden">
+      <main id="home"className="relative min-h-screen text-white overflow-hidden">
         {/* BACKGROUND IMAGE */}
         <img
           src="/sb.jpg"

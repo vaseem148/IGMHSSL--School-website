@@ -36,7 +36,7 @@ const Activities = () => {
   ];
 
   return (
-    <section className="py-20 px-6 md:px-12 bg-white">
+    <section id="activities"className="py-20 px-6 md:px-12 bg-white">
       {/* Header Section */}
       <div className="max-w-7xl mx-auto text-center mb-16">
         <span className="text-yellow-500 font-bold text-xs uppercase tracking-widest">

@@ -1,6 +1,6 @@
 export default function VisionMission() {
   return (
-    <section className="bg-bg-alt py-24 px-6">
+    <section id="visionMission"className="bg-bg-alt py-24 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* TOP LABEL */}

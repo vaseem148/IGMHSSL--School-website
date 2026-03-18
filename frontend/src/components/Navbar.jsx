@@ -12,12 +12,12 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Home', href: '#' },
-    { name: 'About', href: '#' },
-    { name: 'Academics', href: '#' },
-    { name: 'Facilities', href: '#' },
-    { name: 'Activities', href: '#' },
-    { name: 'Contact', href: '#' },
+    { name: 'Home', href: '#home' },
+    { name: 'About', href: '#about' },
+    { name: 'Academics', href: '#academics' },
+    { name: 'Facilities', href: '#facilities' },
+    { name: 'Activities', href: '#activities' },
+    { name: 'Contact', href: '#contact' },
   ];
 
   return (
@@ -57,9 +57,12 @@ const Navbar = () => {
           </div>
 
           {/* ADMISSIONS BUTTON */}
-          <button className="bg-yellow-400 text-black px-5 py-2 rounded-full text-sm font-bold hover:bg-yellow-300 transition-transform active:scale-95 shadow-lg">
+          <a 
+            href="#admisstionopen"
+            className="bg-yellow-400 text-black px-5 py-2 rounded-full text-sm font-bold hover:bg-yellow-300 transition-transform active:scale-95 shadow-lg inline-block"
+          >
             Admissions Open
-          </button>
+          </a>
         </div>
       </div>
     </nav>

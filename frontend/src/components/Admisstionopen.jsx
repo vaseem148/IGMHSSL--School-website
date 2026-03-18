@@ -10,7 +10,7 @@ const Admissions = () => {
   ];
 
   return (
-    <section className="relative py-20 px-6 md:px-12 bg-gradient-to-br from-brand-dark-green via-brand-blue to-brand-dark-blue text-white overflow-hidden">
+    <section id="admisstionopen"className="relative py-20 px-6 md:px-12 bg-gradient-to-br from-brand-dark-green via-brand-blue to-brand-dark-blue text-white overflow-hidden">
       {/* Background Decorative Element */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full -mr-48 -mt-48 blur-3xl"></div>
 
